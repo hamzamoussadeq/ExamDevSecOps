@@ -4,7 +4,6 @@ import com.ensa.exam.bean.Employee;
 import com.ensa.exam.dao.EmployeeDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

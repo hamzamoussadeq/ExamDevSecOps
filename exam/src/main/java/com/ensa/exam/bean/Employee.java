@@ -11,9 +11,9 @@ import lombok.Data;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long Id;
-    private String Nom;
-    private String Prenom;
+    private Long id;
+    private String nom;
+    private String prenom;
     private String email;
 
 }
